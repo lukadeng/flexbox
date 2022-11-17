@@ -40,10 +40,10 @@ ul a {
   text-decoration: none;
   font-size: 18px;
 }
-.navigation a:hover {
+/* .navigation a:hover {
   background-color: rgb(175, 95, 95);
   border-radius: 2px solid black;
-}
+} */
 .navigation .container {
   display: flex;
   justify-content: space-between;
@@ -88,4 +88,15 @@ ul a {
   margin: 20px 10px;
   box-shadow: 0 3px 5px rgb(0, 0, 0, 0.6);
   padding: 15px 20px;
+}
+@media screen and (min-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .boxes .container {
+    display: block;
+    text-align: center;
+  }
 }
