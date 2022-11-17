@@ -28,6 +28,28 @@ ul a {
   padding: 0 30px;
 }
 /* error */
-.navigation container logo nav {
+.navigation {
   background-color: dodgerblue;
+}
+.navigation .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navigation a:hover {
+  background-color: rgb(175, 95, 95);
+  border-radius: 2px solid black;
+}
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navigation ul {
+  display: flex;
 }
